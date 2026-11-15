@@ -1,0 +1,16 @@
+html,
+body {
+    overflow-x: clip;
+    overscroll-behavior: none;
+    -ms-scroll-chaining: none;
+}
+
+.elementor-element a.elementor-button {
+    -webkit-transition-property: all;
+         -o-transition-property: all;
+            transition-property: all;
+}
+
+.elementor-widget-text-editor p:last-child {
+    margin-bottom: 0;
+}
